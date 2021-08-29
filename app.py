@@ -12,7 +12,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 app = Flask(__name__)
 
-MODEL = tf.keras.models.load_model("//models//1")
+MODEL = tf.keras.models.load_model("/models/1")
 
 CLASS_NAMES = ["Early Blight", "Late Blight", "Healthy"]
 
